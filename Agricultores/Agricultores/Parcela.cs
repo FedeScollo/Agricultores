@@ -16,7 +16,7 @@ namespace Agricultores
         public int tamanio { get; set; }
         public Cultivo tipoCultivo { get; set; }
 
-        public Parcela()
+        public Parcela(Capataz unCapataz, int unHCultivo, int unHLibre, int unNumParcela, Silo unSilo, int unTamanio, Cultivo unTipoCultivo)
         {
 
         }

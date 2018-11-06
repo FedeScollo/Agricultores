@@ -9,7 +9,7 @@ namespace Agricultores
     public class Silo
     {
         public int CantKilos { get; set; }
-        public Silo()
+        public Silo(int CantKilos)
         {
 
         }

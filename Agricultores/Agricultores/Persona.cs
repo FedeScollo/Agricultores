@@ -9,7 +9,7 @@ namespace Agricultores
     class Persona
     {
         public string nombre { get; set; }
-        public Persona()
+        public Persona(string unNombre)
         {
 
         }
