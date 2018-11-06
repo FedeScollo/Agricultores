@@ -9,7 +9,7 @@ namespace Agricultores
     public class Capataz:Persona
     {
         public string nombre { get; set; }
-        List<Ventas> { get; set; }
+        List<Venta> Ventas { get; set; }
         public Capataz ()
 	    {
 
