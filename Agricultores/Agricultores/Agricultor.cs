@@ -31,5 +31,15 @@ namespace Agricultores
             peso = unaParcela.tipoCultivo.equivalenciaXH * unasHectareas;
             unSilo.CantKilos = unSilo.CantKilos + peso;
         }
+        public void cambiarCultivo(Cultivo unCultivo,Parcela unaParcela,Silo unSilo)
+        {
+            if(unSilo.CantKilos == 0)
+            {
+                unaParcela.tipoCultivo = unCultivo;
+            }
+            else
+            {
+            }
+        }
     }
 }
