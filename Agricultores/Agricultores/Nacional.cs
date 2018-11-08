@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Agricultores
 {
-    class Persona
+    public class Nacional: Comprador
     {
-        public string nombre { get; set; }
-        public Persona(string unNombre)
+        public int porcAjuste { get; set; }
+
+        public Nacional(int unPorcAjuste, string unNombre): base(unPorcAjuste, unNombre)
         {
+            porcAjuste = unPorcAjuste;
             nombre = unNombre;
         }
     }
