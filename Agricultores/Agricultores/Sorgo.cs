@@ -13,7 +13,7 @@ namespace Agricultores
         public double precioVenta { get; set; }
 
 
-        public Sorgo(int unCostoXHevtarea, int unaEquivalenciaXH,double unPrecioVenta) : base(unCostoXHevtarea,unaEquivalenciaXH,unPrecioVenta)
+        public Sorgo(int unCostoXHevtarea, int unaEquivalenciaXH,double unPrecioVenta) : base(unCostoXHevtarea,25,unPrecioVenta)
         {
 
         }

@@ -13,7 +13,7 @@ namespace Agricultores
         public double precioVenta { get; set; }
 
 
-        public Soja(int unCostoXHevtarea, int unaEquivalenciaXH,double unPrecioVenta) : base(unCostoXHevtarea,unaEquivalenciaXH,unPrecioVenta)
+        public Soja(int unCostoXHevtarea, int unaEquivalenciaXH,double unPrecioVenta) : base(10,80,unPrecioVenta)
         {
 
         }

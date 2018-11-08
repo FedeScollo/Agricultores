@@ -13,7 +13,7 @@ namespace Agricultores
         public double precioVenta { get; set; }
 
 
-        public Trigo(int unCostoXHevtarea, int unaEquivalenciaXH,double unPrecioVenta) : base(unCostoXHevtarea,unaEquivalenciaXH,unPrecioVenta)
+        public Trigo(int unCostoXHevtarea, int unaEquivalenciaXH,double unPrecioVenta) : base(unCostoXHevtarea,70,unPrecioVenta)
         {
 
         }
