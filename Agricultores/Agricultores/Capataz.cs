@@ -10,9 +10,9 @@ namespace Agricultores
     {
         public string nombre { get; set; }
         List<Venta> Ventas { get; set; }
-        public Capataz(string unNombre): base(unNombre)
+        public Capataz(string unNombre,List<Venta> unasVentas): base(unNombre)
         {
-
+            Ventas = unasVentas;
         }
     }
 }

@@ -13,7 +13,6 @@ namespace Agricultores
         public Agricultor(int unCantParcelas, string unNombre): base (unNombre)
         {
             cantParcelas = unCantParcelas;
-            nombre = unNombre;
         }
     }
 }

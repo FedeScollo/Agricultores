@@ -12,7 +12,6 @@ namespace Agricultores
         public int porcAjuste { get; set; }
         public Comprador(int unPorcAjuste, string unNombre): base (unNombre)
         {
-            nombre = unNombre;
             porcAjuste = unPorcAjuste;
         }
     }
