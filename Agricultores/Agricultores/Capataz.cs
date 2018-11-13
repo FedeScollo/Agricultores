@@ -14,5 +14,15 @@ namespace Agricultores
         {
             Ventas = unasVentas;
         }
+        public void vender(Cultivo unCultivo, Comprador unComprador, Venta unVenta)
+        {
+            
+            
+            double PV = 0;
+            
+            PV = unVenta.cantKilo * unCultivo.precioVenta * unComprador.porcAjuste % 100;
+
+            Console.WriteLine("{0}", PV);
+        }
     }
 }
