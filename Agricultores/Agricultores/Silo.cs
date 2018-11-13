@@ -20,5 +20,7 @@ namespace Agricultores
             v = unaParcela.tipoCultivo.costoXHectarea * unaParcela.silo.CantKilos;
             return v;
         }
+
+
     }
 }

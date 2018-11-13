@@ -20,5 +20,11 @@ namespace Agricultores
         {
 
         }
+        public double precioCultivo(Parcela unParcela)
+        {
+            double preCul;
+            preCul = unParcela.tipoCultivo.precioVenta * silo.CantKilos;
+            return preCul;
+        }
     }
 }
