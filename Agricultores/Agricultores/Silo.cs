@@ -13,6 +13,7 @@ namespace Agricultores
         {
 
         }
+<<<<<<< HEAD
 
         public int costoTotalParcela(Parcela unaParcela)
         {
@@ -22,5 +23,7 @@ namespace Agricultores
         }
 
 
+=======
+>>>>>>> bf5ddcec0e5942e65ad8d034bfa5d2494457f604
     }
 }

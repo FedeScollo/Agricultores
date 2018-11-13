@@ -8,12 +8,12 @@ namespace Agricultores
 {
     public class Agricultor: Persona
     {
-        public int cantParcelas { get; set; }
+        public List<Parcela> parcelas { get; set; }
         public string nombre { get; set; }
 
-        public Agricultor(int unCantParcelas, string unNombre): base (unNombre)
+        public Agricultor(List<Parcela> unasParcelas, string unNombre): base (unNombre)
         {
-            cantParcelas = unCantParcelas;
+            parcelas = unasParcelas;
         }
 
         public void cultivar(Parcela unaParcela, Cultivo unCultivo,int unasHectareas)
