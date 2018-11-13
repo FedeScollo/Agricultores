@@ -20,5 +20,12 @@ namespace Agricultores
         {
 
         }
+
+        public int costoTotalParcela()
+        {
+            int v;
+            v = tipoCultivo.costoXHectarea * silo.CantKilos;
+            return v;
+        }
     }
 }

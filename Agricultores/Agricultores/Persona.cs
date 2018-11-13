@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Agricultores
 {
-    class Persona
+     public class Persona
     {
         public string nombre { get; set; }
         public Persona(string unNombre)

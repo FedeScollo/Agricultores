@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Agricultores
 {
-    class Sorgo : Cultivo
+    public class Sorgo : Cultivo
     {
         public int costoXHectarea { get; set; }
         public int equivalenciaXH { get; set; }
