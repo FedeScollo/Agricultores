@@ -20,20 +20,20 @@ namespace Agricultores
         {
 
         }
-<<<<<<< HEAD
+
         public double precioCultivo(Parcela unParcela)
         {
             double preCul;
             preCul = unParcela.tipoCultivo.precioVenta * silo.CantKilos;
             return preCul;
-=======
+        }
 
         public int costoTotalParcela()
         {
             int v;
             v = tipoCultivo.costoXHectarea * silo.CantKilos;
             return v;
->>>>>>> bf5ddcec0e5942e65ad8d034bfa5d2494457f604
+
         }
     }
 }

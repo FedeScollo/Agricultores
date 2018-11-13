@@ -13,17 +13,6 @@ namespace Agricultores
         {
 
         }
-<<<<<<< HEAD
 
-        public int costoTotalParcela(Parcela unaParcela)
-        {
-            int v;
-            v = unaParcela.tipoCultivo.costoXHectarea * unaParcela.silo.CantKilos;
-            return v;
-        }
-
-
-=======
->>>>>>> bf5ddcec0e5942e65ad8d034bfa5d2494457f604
     }
 }
