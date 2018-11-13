@@ -9,11 +9,13 @@ namespace Agricultores
     public class Agricultor: Persona
     {
         public List<Parcela> parcelas { get; set; }
+        public List<Cultivo> cultivos { get; set; }
         public string nombre { get; set; }
 
-        public Agricultor(List<Parcela> unasParcelas, string unNombre): base (unNombre)
+        public Agricultor(List<Parcela> unasParcelas,List<Cultivo> unosCultivos, string unNombre): base (unNombre)
         {
             parcelas = unasParcelas;
+            cultivos = unosCultivos;
         }
 
         public void cultivar(Parcela unaParcela, Cultivo unCultivo,int unasHectareas)
@@ -40,6 +42,17 @@ namespace Agricultores
             else
             {
             }
+        }
+
+        public void informarCultivo(Parcela unaParcela)
+        {
+            //if(unaParcela.silo > 0 || cultivos.First != unaParcela.tipoCultivo)
+            //{
+            //    cultivos.Add(unaParcela.tipoCultivo);
+            //}
+            //else
+            //{
+            //}
         }
     }
 }
