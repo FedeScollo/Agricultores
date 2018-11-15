@@ -14,13 +14,13 @@ namespace Agricultores
         {
             Ventas = unasVentas;
         }
-        public void vender(Cultivo unCultivo, Comprador unComprador, Venta unVenta)
+        public void vender(Cultivo unCultivo, Comprador unComprador, Venta unaVenta)
         {
             
             
             double PV = 0;
             
-            PV = unVenta.cantKilo * unCultivo.precioVenta * unComprador.porcAjuste % 100;
+            PV = unaVenta.cantKilo * unCultivo.precioVenta * unComprador.porcAjuste % 100;
 
             Console.WriteLine("{0}", PV);
         }
