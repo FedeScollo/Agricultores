@@ -8,14 +8,8 @@ namespace Agricultores
 {
     public class Soja : Cultivo
     {
-        public int costoXHectarea { get; set; }
-        public int equivalenciaXH { get; set; }
-        public double precioVenta { get; set; }
-
-
-        public Soja(int unCostoXHevtarea, int unaEquivalenciaXH,double unPrecioVenta) : base(10,80,unPrecioVenta)
+        public Soja(int unCostoXHectarea, int unaEquivalenciaXH,double unPrecioVenta) : base(unCostoXHectarea,unaEquivalenciaXH,unPrecioVenta)
         {
-
         }
     }
 }

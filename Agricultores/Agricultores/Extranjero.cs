@@ -8,11 +8,9 @@ namespace Agricultores
 {
     public class Extranjero: Comprador
     {
-        public int porcAjuste { get; set; }
         public Extranjero(int unPorcAjuste, string unNombre): base(unPorcAjuste, unNombre)
         {
-            porcAjuste = unPorcAjuste;
-            nombre = unNombre;
+
         }
     }
 }

@@ -10,7 +10,7 @@ namespace Agricultores
     {
         public List<Parcela> parcelas { get; set; }
         public List<Cultivo> cultivos { get; set; }
-        public string nombre { get; set; }
+
 
         public Agricultor(List<Parcela> unasParcelas, List<Cultivo> unosCultivos, string unNombre)
             : base(unNombre)

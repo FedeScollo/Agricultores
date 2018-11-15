@@ -8,7 +8,7 @@ namespace Agricultores
 {
     public class Comprador: Persona
     {
-        public string nombre { get; set; }
+
         public int porcAjuste { get; set; }
         public Comprador(int unPorcAjuste, string unNombre): base (unNombre)
         {
