@@ -46,13 +46,13 @@ namespace Agricultores
 
         public void informarCultivo(Parcela unaParcela)
         {
-            //if(unaParcela.silo > 0 || cultivos.First != unaParcela.tipoCultivo)
-            //{
-            //    cultivos.Add(unaParcela.tipoCultivo);
-            //}
-            //else
-            //{
-            //}
+            if ((unaParcela.silo.CantKilos > 0) || (cultivos.First() != unaParcela.tipoCultivo) || (unaParcela.tipoCultivo == unaParcela.tipoCultivo))
+            {
+                cultivos.Add(unaParcela.tipoCultivo);
+            }
+            else
+            {
+            }
         }
     }
 }
