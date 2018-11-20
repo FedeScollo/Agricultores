@@ -9,10 +9,11 @@ namespace Agricultores
     public class Capataz:Persona
     {
         List<Venta> Ventas { get; set; }
-        public Capataz(string unNombre,List<Venta> unasVentas): base(unNombre)
+        public Capataz(string unNombre): base(unNombre)
         {
-            Ventas = unasVentas;
+            Ventas = new List<Venta>();
         }
+
         public void vender(Cultivo unCultivo, Comprador unComprador, Venta unaVenta)
         {
             double PV = 0;
@@ -20,6 +21,11 @@ namespace Agricultores
             PV = unaVenta.cantKilo * unCultivo.precioVenta * unComprador.porcAjuste % 100;
 
             Console.WriteLine("{0}", PV);
+        }
+
+        public void realizarVenta(Venta venta)
+        {
+            Ventas.Add(venta);
         }
     }
 }

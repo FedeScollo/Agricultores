@@ -139,13 +139,13 @@ namespace webAgricultor {
         protected global::System.Web.UI.WebControls.Label lblTipoCultivo;
         
         /// <summary>
-        /// Control txtTipoCultivo.
+        /// Control ddlTipoCultivo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTipoCultivo;
+        protected global::System.Web.UI.WebControls.DropDownList ddlTipoCultivo;
         
         /// <summary>
         /// Control btnAceptar.
