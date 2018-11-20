@@ -11,8 +11,6 @@ namespace Agricultores
         public int costoXHectarea { get; set; }
         public int equivalenciaXH { get; set; }
         public double precioVenta { get; set; }
-
-
         public Cultivo(int unCostoXHectarea, int unaEquivalenciaXH,double unPrecioVenta)
         {
             costoXHectarea = unCostoXHectarea;

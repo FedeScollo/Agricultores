@@ -8,8 +8,6 @@ namespace Agricultores
 {
     public class Trigo : Cultivo
     {
-
-
         public Trigo(int unCostoXHevtarea, int unaEquivalenciaXH,double unPrecioVenta) : base(unCostoXHevtarea,unaEquivalenciaXH,unPrecioVenta)
         {
         }

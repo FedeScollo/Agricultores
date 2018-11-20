@@ -15,8 +15,6 @@ namespace Agricultores
         }
         public void vender(Cultivo unCultivo, Comprador unComprador, Venta unaVenta)
         {
-            
-            
             double PV = 0;
             
             PV = unaVenta.cantKilo * unCultivo.precioVenta * unComprador.porcAjuste % 100;

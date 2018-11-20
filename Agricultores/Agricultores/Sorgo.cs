@@ -8,7 +8,6 @@ namespace Agricultores
 {
     public class Sorgo : Cultivo
     {
-
         public Sorgo(int unCostoXHevtarea, int unaEquivalenciaXH,double unPrecioVenta) : base(unCostoXHevtarea,unaEquivalenciaXH,unPrecioVenta)
         {
         }

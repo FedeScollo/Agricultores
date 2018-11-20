@@ -58,15 +58,6 @@ namespace webAgricultor {
         protected global::System.Web.UI.WebControls.TextBox txtNroParcela;
         
         /// <summary>
-        /// Control Regex1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator Regex1;
-        
-        /// <summary>
         /// Control lblHCultivadas.
         /// </summary>
         /// <remarks>
@@ -83,15 +74,6 @@ namespace webAgricultor {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtHCultivadas;
-        
-        /// <summary>
-        /// Control Regex2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator Regex2;
         
         /// <summary>
         /// Control lblSilo.
@@ -130,15 +112,6 @@ namespace webAgricultor {
         protected global::System.Web.UI.WebControls.TextBox txtHLibres;
         
         /// <summary>
-        /// Control Regex3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator Regex3;
-        
-        /// <summary>
         /// Control lblTamanio.
         /// </summary>
         /// <remarks>
@@ -157,15 +130,6 @@ namespace webAgricultor {
         protected global::System.Web.UI.WebControls.TextBox txtTamanio;
         
         /// <summary>
-        /// Control Regex4.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator Regex4;
-        
-        /// <summary>
         /// Control lblTipoCultivo.
         /// </summary>
         /// <remarks>
@@ -182,15 +146,6 @@ namespace webAgricultor {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTipoCultivo;
-        
-        /// <summary>
-        /// Control Regex5.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator Regex5;
         
         /// <summary>
         /// Control btnAceptar.

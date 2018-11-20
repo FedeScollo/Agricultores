@@ -8,7 +8,6 @@ namespace Agricultores
 {
     public class Especial: Comprador
     {
-
         public Especial(int unPorcAjuste, string unNombre): base(unPorcAjuste, unNombre)
         {
         }
